@@ -103,7 +103,7 @@ internal extension MessagesViewController {
 //         }
         
         if maintainPositionOnKeyboardFrameChanged && differenceOfBottomInset != 0 {
-//             let contentOffset = CGPoint(x: messagesCollectionView.contentOffset.x, y: messagesCollectionView.contentOffset.y + differenceOfBottomInset)
+            let contentOffset = CGPoint(x: messagesCollectionView.contentOffset.x, y: messagesCollectionView.contentOffset.y + differenceOfBottomInset)
 //             // Changing contentOffset to bigger number than the contentSize will result in a jump of content
 //             // https://github.com/MessageKit/MessageKit/issues/1486
 //             guard contentOffset.y <= messagesCollectionView.contentSize.height else {
